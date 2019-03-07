@@ -1,4 +1,4 @@
-package practicaleight;
+package practicalseven;
 
 public class PasswordChecker {
 
