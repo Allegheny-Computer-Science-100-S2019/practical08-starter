@@ -21,14 +21,14 @@ jar {
   manifest {
     attributes(
         'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
-        'Main-Class': 'practicalseven.PasswordCheckerMain'
+        'Main-Class': 'practicaleight.PasswordCheckerMain'
         )
   }
 }
 
 // give the name of the application to run with "gradle run" command
 apply plugin: 'application'
-mainClassName = 'practicalseven.PasswordCheckerMain'
+mainClassName = 'practicaleight.PasswordCheckerMain'
 
 // perform checkstyle checking with the "gradle check" command
 apply plugin: 'checkstyle'

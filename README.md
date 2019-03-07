@@ -1,7 +1,7 @@
-# cs100s2019-practical7-starter
+# cs100s2019-practical8-starter
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
-repository contains the solution for Practical 7 in Computer Science 100.
+repository contains the solution for Practical 8 in Computer Science 100.
 
 Since the Travis builds for this repository will initially fail (as evidenced by
 a red &#x2717; appearing in the commit logs instead of a green &#x2714;), the
@@ -120,8 +120,8 @@ Thank you for using the PasswordChecker.
 ## Problems
 
 If you have found a problem with this assignment's provided source code, then
-you can go to the [Computer Science 100 Practical 7
-Starter](https://github.com/Allegheny-Computer-Science-100-S2019/practical07-starter)
+you can go to the [Computer Science 100 Practical 8
+Starter](https://github.com/Allegheny-Computer-Science-100-S2019/practical08-starter)
 repository and create an issue by clicking the "Issues" tab and then clicking
 the green "New Issue" button. If you have found a problem with the [GatorGrader tool](https://github.com/GatorEducator/gatorgrader) and the way that it checks you
 assignment, then you can follow the aforementioned steps to create an issue in

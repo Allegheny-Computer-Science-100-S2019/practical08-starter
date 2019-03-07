@@ -1,4 +1,4 @@
-package practicalseven;
+package practicaleight;
 
 import java.io.File;
 import java.io.FileNotFoundException;

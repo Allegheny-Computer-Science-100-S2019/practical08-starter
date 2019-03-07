@@ -2,7 +2,7 @@
 dist: trusty
 sudo: false
 language: Java
-jdk: oraclejdk8
+jdk: openjdk11
 
 # ignore the virtualenv that Travis creates
 env:
@@ -15,11 +15,11 @@ before_install:
   #- gem install mdl
   # download gradle as a zip file
   - wget https://services.gradle.org/distributions/gradle-4.6-bin.zip
-  - unzip -d $HOME gradle-4.6-bin.zip
+  - unzip -d $HOME gradle-5.1-bin.zip
   # delete the downloaded file
-  - rm -rf gradle-4.6-bin.zip
+  - rm -rf gradle-5.1-bin.zip
   # add gradle bin to path at the beginning to ensure it overwrites old gradle
-  - export PATH="$HOME/gradle-4.6/bin:$PATH"
+  - export PATH="$HOME/gradle-5.1/bin:$PATH"
   # switch to Python 3.6.3 globally, install python dependencies
   - pyenv global 3.6.3
   - pip install --upgrade pip
